@@ -75,7 +75,7 @@ def imp(con ,output_path) :
     df=query(con)
     shaped_df=shape_df(df)
     shaped_df.to_csv(output_path ,mode='a')
-    print('this is indeed remote branch 4 {} '.format(output_path))
+    print('this should be indeed remote branch 4 {} '.format(output_path))
 
 if __name__ == '__main__':
     from EE.engine_from_json_file import engine_from_json_file
